@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Src">
+      <UniqueIdentifier>{6f246fe5-b34d-420d-b8bd-3ac58297b366}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\MyStl">
+      <UniqueIdentifier>{bc60592d-bf9d-494e-ad70-6ea4dc43b9df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Util">
+      <UniqueIdentifier>{3740db99-110a-4f24-977f-622b95cb6201}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\MyStl\Dequeue">
+      <UniqueIdentifier>{c20500ad-a01a-46db-9776-5e16e40c27d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\MyStl\List">
+      <UniqueIdentifier>{2c86cda6-3636-4ae2-886f-d80c5f98c726}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\MyStl\Vector">
+      <UniqueIdentifier>{b770f39d-6961-44c4-b242-56eed689c6d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Util\PerformanceMeasure">
+      <UniqueIdentifier>{d8cd089d-171d-4fcb-901e-448e28102c3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\MyStl\Iterator">
+      <UniqueIdentifier>{411818e5-e069-4b4e-8e04-7cb4065cd50d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\main.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Src\Util\PerformanceMeasure\PerformanceMeasure.h">
+      <Filter>Src\Util\PerformanceMeasure</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MyStl\List\List.h">
+      <Filter>Src\MyStl\List</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MyStl\Iterator\Stock.h">
+      <Filter>Src\MyStl\Iterator</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MyStl\Iterator\Iterator.h">
+      <Filter>Src\MyStl\Iterator</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MyStl\Vector\Vector.h">
+      <Filter>Src\MyStl\Vector</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
