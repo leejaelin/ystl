@@ -149,10 +149,11 @@
     <ClCompile Include="Src\main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Iterator.h" />
+    <ClInclude Include="Src\MyStl\Iterator\Iterator.h" />
+    <ClInclude Include="Src\MyStl\Iterator\Stock.h" />
     <ClInclude Include="Src\MyStl\List\List.h" />
+    <ClInclude Include="Src\MyStl\Vector\Vector.h" />
     <ClInclude Include="Src\Util\PerformanceMeasure\PerformanceMeasure.h" />
-    <ClInclude Include="Stock.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

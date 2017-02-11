@@ -1,26 +1,28 @@
 #pragma once
 
-template<typename T>
-struct Stock
-{
-public:
-	Stock()
+namespace MyStl {
+	template<typename T>
+	struct Stock
 	{
-		init();
-	}
-	Stock(T &t)
-	{
-		init();
-		value = t;
-	}
-	Stock * prev;
-	Stock * next;
-	T value;
+	public:
+		Stock()
+		{
+			init();
+		}
+		Stock(T &t)
+		{
+			init();
+			value = t;
+		}
+		Stock * prev;
+		Stock * next;
+		T value;
 
-private:
-	void init()
-	{
-		prev = nullptr;
-		next = nullptr;
-	}
-};
+	private:
+		void init()
+		{
+			prev = nullptr;
+			next = nullptr;
+		}
+	};
+}

@@ -38,11 +38,14 @@
     <ClInclude Include="Src\MyStl\List\List.h">
       <Filter>Src\MyStl\List</Filter>
     </ClInclude>
-    <ClInclude Include="Iterator.h">
+    <ClInclude Include="Src\MyStl\Iterator\Stock.h">
       <Filter>Src\MyStl\Iterator</Filter>
     </ClInclude>
-    <ClInclude Include="Stock.h">
+    <ClInclude Include="Src\MyStl\Iterator\Iterator.h">
       <Filter>Src\MyStl\Iterator</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MyStl\Vector\Vector.h">
+      <Filter>Src\MyStl\Vector</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
